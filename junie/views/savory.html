@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explora nuestras recetas saladas: platos principales, entradas y más. Descarga en PDF.">
+    <title>Recetas Saladas - Recetario Tradicional</title>
+    <link rel="stylesheet" href="../style/styles.css">
+</head>
+<body>
+    <a href="#main-content" class="skip-link">Saltar al contenido principal</a>
+
+    <header>
+        <nav class="navbar" aria-label="Navegación principal">
+            <div class="logo">
+                <a href="index.html" aria-label="Inicio del Recetario" style="color: white; text-decoration: none; font-size: 1.5rem; font-weight: bold;">Recetario</a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="savory.html" aria-current="page">Salado</a></li>
+                <li><a href="desserts.html">Postres</a></li>
+                <li><a href="index.html#informacion">Información</a></li>
+                <li><a href="index.html#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="main-content">
+        <section aria-labelledby="savory-heading">
+            <h1 id="savory-heading">Recetas Saladas</h1>
+            <p style="margin-bottom: 2rem;">Una colección de los mejores platos salados para cualquier ocasión.</p>
+
+            <div class="recipe-grid">
+                <!-- Receta 1 -->
+                <article class="recipe-card">
+                    <img src="../src/imagenes/receta1.png" alt="Plato de Lasaña de Carne con queso fundido">
+                    <div class="recipe-info">
+                        <h3>Lasaña de Carne Clásica</h3>
+                        <p>Una lasaña tradicional con capas de pasta, boloñesa casera y bechamel cremosa.</p>
+                        <a href="../src/recetario/receta1.pdf" class="download-link" download aria-label="Descargar PDF de Lasaña de Carne Clásica">Descargar Receta (PDF)</a>
+                    </div>
+                </article>
+
+                <!-- Receta 2 -->
+                <article class="recipe-card">
+                    <img src="../src/imagenes/receta2.png" alt="Pollo al horno con hierbas aromáticas y patatas">
+                    <div class="recipe-info">
+                        <h3>Pollo al Horno con Hierbas</h3>
+                        <p>Pollo jugoso asado lentamente con una mezcla de romero, tomillo y limón.</p>
+                        <a href="../src/recetario/receta2.pdf" class="download-link" download aria-label="Descargar PDF de Pollo al Horno con Hierbas">Descargar Receta (PDF)</a>
+                    </div>
+                </article>
+
+                <!-- Receta 3 -->
+                <article class="recipe-card">
+                    <img src="../src/imagenes/receta3.png" alt="Risotto de setas silvestres con parmesano">
+                    <div class="recipe-info">
+                        <h3>Risotto de Setas</h3>
+                        <p>Arroz cremoso con una variedad de setas de temporada y queso parmesano.</p>
+                        <a href="../src/recetario/receta3.pdf" class="download-link" download aria-label="Descargar PDF de Risotto de Setas">Descargar Receta (PDF)</a>
+                    </div>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer role="contentinfo">
+        <p>&copy; 2026 Recetario Tradicional. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>

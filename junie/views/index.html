@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Bienvenido a nuestro recetario. Encuentra las mejores recetas saladas y postres deliciosos.">
+    <title>Recetario Tradicional - Inicio</title>
+    <link rel="stylesheet" href="../style/styles.css">
+</head>
+<body>
+    <a href="#main-content" class="skip-link">Saltar al contenido principal</a>
+
+    <header>
+        <nav class="navbar" aria-label="Navegación principal">
+            <div class="logo">
+                <a href="index.html" aria-label="Inicio del Recetario" style="color: white; text-decoration: none; font-size: 1.5rem; font-weight: bold;">Recetario</a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html" aria-current="page">Inicio</a></li>
+                <li><a href="savory.html">Salado</a></li>
+                <li><a href="desserts.html">Postres</a></li>
+                <li><a href="#informacion">Información</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="main-content">
+        <section id="introduccion" aria-labelledby="intro-heading">
+            <h1 id="intro-heading">Bienvenidos a Nuestro Recetario</h1>
+            <p>Descubre una selección cuidadosamente curada de recetas tradicionales y modernas. Desde platos salados reconfortantes hasta postres irresistibles, nuestro objetivo es compartir la pasión por la cocina con pasos sencillos y resultados espectaculares.</p>
+            <p>Navega por nuestras categorías para encontrar tu próxima comida favorita y descarga las recetas en formato PDF para tenerlas siempre a mano en tu cocina.</p>
+        </section>
+
+        <hr aria-hidden="true" style="margin-bottom: 4rem; border: 0; border-top: 1px solid #eee;">
+
+        <section id="contacto" aria-labelledby="contacto-heading">
+            <h2 id="contacto-heading">Contacto</h2>
+            <p>¿Tienes alguna duda o sugerencia? ¡Nos encantaría escucharte!</p>
+            <form class="contact-form" action="#" method="post">
+                <div class="form-group">
+                    <label for="nombre">Nombre Completo</label>
+                    <input type="text" id="nombre" name="nombre" required aria-required="true" placeholder="Tu nombre">
+                </div>
+                <div class="form-group">
+                    <label for="email">Correo Electrónico</label>
+                    <input type="email" id="email" name="email" required aria-required="true" placeholder="tu@email.com">
+                </div>
+                <div class="form-group">
+                    <label for="mensaje">Mensaje</label>
+                    <textarea id="mensaje" name="mensaje" rows="5" required aria-required="true" placeholder="Escribe tu mensaje aquí..."></textarea>
+                </div>
+                <button type="submit">Enviar Mensaje</button>
+            </form>
+        </section>
+
+        <hr aria-hidden="true" style="margin-bottom: 4rem; border: 0; border-top: 1px solid #eee;">
+
+        <section id="informacion" aria-labelledby="info-heading">
+            <h2 id="info-heading">Sobre el Mantenedor</h2>
+            <article>
+                <h3>Juan Pérez - Chef y Desarrollador</h3>
+                <p>Este sitio es mantenido por Juan Pérez, un entusiasta de la gastronomía con más de 10 años de experiencia en la creación de contenidos culinarios. Su misión es democratizar el acceso a recetas de alta calidad.</p>
+                <p>Ubicación: Madrid, España.</p>
+                <p>Especialidad: Cocina mediterránea y repostería creativa.</p>
+            </article>
+        </section>
+    </main>
+
+    <footer role="contentinfo">
+        <p>&copy; 2026 Recetario Tradicional. Todos los derechos reservados. Accesibilidad WCAG 2.2 AA cumplida.</p>
+    </footer>
+</body>
+</html>
